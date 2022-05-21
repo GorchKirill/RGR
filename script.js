@@ -37,45 +37,45 @@ function search() {
     let name = document.getElementById('search').value;
     let productNumber = null;
     if (name == 'Vaporesso Renova ZERO Care') {
-        productNumber = 0;
+        productNumber = 19;
     } else if (name == 'inHALE POD') {
-        productNumber = 1;
+        productNumber = 0;
     } else if (name == 'Vaporesso OSMAL') {
-        productNumber = 2;
+        productNumber = 1;
     } else if (name == 'Elf Bar RF350 Pod') {
-        productNumber = 3;
+        productNumber = 2;
     } else if (name == 'Justfog Better Than KIT') {
-        productNumber = 4;
+        productNumber = 3;
     } else if (name == 'Smoant VIKII KIT Pod') {
-        productNumber = 5; 
+        productNumber = 4; 
     } else if (name == 'Eleaf IORE LITE Pod') {
-        productNumber = 6; 
+        productNumber = 5; 
     } else if (name == 'Hotcig Kubi Plus Pod KIT') {
-        productNumber = 7; 
+        productNumber = 6; 
     } else if (name == 'Univapo MISO-C Pod Classic') {
-        productNumber = 8; 
+        productNumber = 7; 
     } else if (name == 'Smoant Veer Pod') {
-        productNumber = 9; 
+        productNumber = 8; 
     } else if (name == 'Justfog MINIFIT-S') {
-        productNumber = 10; 
+        productNumber = 9; 
     } else if (name == 'SMOANT Charon Baby') {
-        productNumber = 11; 
+        productNumber = 10; 
     } else if (name == 'SMOK SOLUS KIT') {
-        productNumber = 12; 
+        productNumber = 11; 
     } else if (name == 'Univapo Kipo Pod') {
-        productNumber = 13; 
+        productNumber = 12; 
     } else if (name == 'Vaporesso BARR Pod KIT') {
-        productNumber = 14; 
+        productNumber = 13; 
     } else if (name == 'Nevoks Feelin Mini Pod KIT') {
-        productNumber = 15; 
+        productNumber = 14; 
     } else if (name == 'Elf BAR Mate 500') {
-        productNumber = 16; 
+        productNumber = 15; 
     } else if (name == 'Joyetech eGO Pod AST Version') {
-        productNumber = 17; 
+        productNumber = 16; 
     } else if (name == 'Uwell Yearn Neat 2 Pod KIT') {
-        productNumber = 18; 
+        productNumber = 17; 
     } else if (name == 'VooPoo VINCI Q') {
-        productNumber = 19;       
+        productNumber = 18;       
     } else {
         alert('Товар не найден');
     }
