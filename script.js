@@ -17,7 +17,7 @@ function hideModal() {
     let modal = document.getElementsByClassName('modal')[0];
     setTimeout(function() {
         modal.style.visibility = 'hidden';
-    }, 350); // 200ms + 150ms
+    }, 350); 
     modal.style.opacity = '0';
 
     document.body.style.overflow = 'auto';
@@ -25,7 +25,7 @@ function hideModal() {
     setTimeout(function() {
         overlay.style.visibility = 'hidden';
     }, 200);
-    /* overlay.style.opacity = '0'; */
+
 }
 function notReadyAlert(event) {
     showModal('Sorry, not ready yet!<br>Извините, ещё не готово!');
@@ -36,45 +36,45 @@ function notReadyAlert(event) {
 function search() {
     let name = document.getElementById('search').value;
     let productNumber = null;
-    if (name == 'iPad mini') {
+    if (name == 'Vaporesso Renova ZERO Care') {
         productNumber = 0;
-    } else if (name == 'iPad Air') {
+    } else if (name == 'inHALE POD') {
         productNumber = 1;
-    } else if (name == 'iPad Pro') {
+    } else if (name == 'Vaporesso OSMAL') {
         productNumber = 2;
-    } else if (name == 'Huawei MatePad') {
+    } else if (name == 'Elf Bar RF350 Pod') {
         productNumber = 3;
-    } else if (name == 'Samsung Galaxy Tab S7') {
+    } else if (name == 'Justfog Better Than KIT') {
         productNumber = 4;
-    } else if (name == 'Lenovo M10') {
+    } else if (name == 'Smoant VIKII KIT Pod') {
         productNumber = 5; 
-    } else if (name == 'Nokia T20 SS 4') {
+    } else if (name == 'Eleaf IORE LITE Pod') {
         productNumber = 6; 
-    } else if (name == 'Samsung Galaxy Tab S6') {
+    } else if (name == 'Hotcig Kubi Plus Pod KIT') {
         productNumber = 7; 
-    } else if (name == 'Huawei MatePad M5') {
+    } else if (name == 'Univapo MISO-C Pod Classic') {
         productNumber = 8; 
-    } else if (name == 'Lenovo TB M7') {
+    } else if (name == 'Smoant Veer Pod') {
         productNumber = 9; 
-    } else if (name == 'Samsung Galaxy Tab A') {
+    } else if (name == 'Justfog MINIFIT-S') {
         productNumber = 10; 
-    } else if (name == 'Prestigio Wize') {
+    } else if (name == 'SMOANT Charon Baby') {
         productNumber = 11; 
-    } else if (name == 'Lenovo Tab M8') {
+    } else if (name == 'SMOK SOLUS KIT') {
         productNumber = 12; 
-    } else if (name == 'Huawei MatePad T10s') {
+    } else if (name == 'Univapo Kipo Pod') {
         productNumber = 13; 
-    } else if (name == 'Samsung Galaxy Tab A8') {
+    } else if (name == 'Vaporesso BARR Pod KIT') {
         productNumber = 14; 
-    } else if (name == 'Samsung Galaxy Tab A7 Lite') {
+    } else if (name == 'Nevoks Feelin Mini Pod KIT') {
         productNumber = 15; 
-    } else if (name == 'Lenovo Tab P11 Plus') {
+    } else if (name == 'Elf BAR Mate 500') {
         productNumber = 16; 
-    } else if (name == 'Prestigio Muze 4G') {
+    } else if (name == 'Joyetech eGO Pod AST Version') {
         productNumber = 17; 
-    } else if (name == 'Huawei MatePad Pro') {
+    } else if (name == 'Uwell Yearn Neat 2 Pod KIT') {
         productNumber = 18; 
-    } else if (name == 'Huawei MatePad T3') {
+    } else if (name == 'VooPoo VINCI Q') {
         productNumber = 19;       
     } else {
         alert('Товар не найден');
@@ -97,9 +97,9 @@ function generateMenu() {
 
     let items = [
         {href: 'index.html', text: 'Товары'},
-        {href: 'contacts.html', text: 'Контакты'},
+        {href: 'MAP.html', text: 'Контакты'},
         {href: '', text: 'Доставка'},
-        {href: 'promotions.html', text: 'Акции'},
+        {href: 'akcii.html', text: 'Акции'},
         {href: '', text: 'О нас'},
     ];
 

@@ -4,6 +4,7 @@
         <meta charset="utf-8"> 
         <title>Горчаков Кирилл. РГЗ по курсу "Интернет-программирование"</title>
         <link rel="stylesheet" href="main.css">
+        <script src="script.js"></script>
     </head> 
  
     <body onload="loaded()"> 
@@ -168,6 +169,11 @@
         </footer>
         
 
-        </div>
+        <div class="overlay" onclick="hideModal()"></div>
+        <div class="modal">
+            <div class="message"></div>
+            <button onclick="hideModal()"></button>
+        </div>    
+    </div>
     </body> 
 </html>
